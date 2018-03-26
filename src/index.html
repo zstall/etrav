@@ -13,6 +13,7 @@
 				color: #ffffff !important;
 			}
 
+			/* Queries to work with smart phone screens n things */
 			@media screen and (max-width: 375px) {
 				.img-max {
 					width: 100% !important;
@@ -32,14 +33,23 @@
 				}
 			}
 
+			/* Transition effects, if your in to that sort of thing. */
 			@media screen and (-webkit-min-device-pixel-ratio: 0) {
 				
-				.mountains {
-					transition: 0.5s ease-in-out;
+				.mountains, .ocean, .forrest {
+					transition: 1.0s ease-in-out;
 				}
 
 				.mountains:hover {
 					background: rgba(160, 142, 127, 0.5) !important;
+				}
+
+				.ocean:hover {
+					background: rgba(80, 157, 216, 0.5) !important;
+				}
+
+				.forrest:hover {
+					background: rgba(131, 158, 137, 0.5) !important;
 				}
 			}
 
@@ -47,23 +57,21 @@
 </head>
 <body style="margin: 0; padding: 0;">
 	
-	<!-- Preheader Text -->
+	<!-- Preheader Text: This is a critical tool that can greatly increase a marketing campaign! -->
 	<div style="display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; width: 0px; opacity: 0; overflow: hidden;">
 		Act now to get 50% off your peak savings!
 	</div>
 
-	<!-- Header Wrapper table -->
+	<!-- Header Wrapper table: let the html email battle begin! -->
 	<table bgcolor="#492833" border="0" cellspacing="0" cellpadding="0" width="100%" class="responsive-padding">
 		<tr>
 			<td align="center" style="padding: 10px 0 0 0;">
 				<img src="https://i.imgur.com/qMrKMx7.png" alt="Top Travvvel Logo" style="display: block;" width="100" class="img-max" />
-				
-
 			</td>
 		</tr>
 	</table>
 
-	<!-- Wrapper For Mountains -->
+	<!-- Wrapper For Mountains: section 1 of 3 (beware, seriously repeated code ahead) -->
 	<table bgcolor="#a49a95" border="0" cellspacing="0" cellpadding="0" style="background: url('https://i.imgur.com/tqIyP5w.png') #a49a95; background-size: cover;" width="100%" >
 		<tr>
 			<td>
@@ -130,16 +138,16 @@
 		</tr>
 	</table>
 	
-	<!-- Wrapper For Beach -->
+	<!-- Wrapper For Beach: Section 2 of 3 (I warned you) -->
 	<table bgcolor="#509dd8" border="0" cellspacing="0" cellpadding="0" style="background: url('https://i.imgur.com/aT1bLmU.png') #509dd8; background-size: cover;" width="100%">
 		<tr>
 			<td>
-					
+				<!-- Did you know water is where meat without feet lives? -->
 				<!-- Wrapper -->
-				<table border="0" cellspacing="0" cellpadding="0" style="background: rgba(80, 157, 216, 0.8);" width="100%" class="responsive-padding">
+				<table border="0" cellspacing="0" cellpadding="0" style="background: rgba(80, 157, 216, 0.8);" width="100%" class="responsive-padding ocean">
 					<tr>
 						<td align="center" style="padding-top: 50px;">
-							<!-- splashing Img -->
+							<!-- splashing Img, not as fun as it sounds. -->
 							<img src="https://i.imgur.com/IicIk0C.png" alt="splashing-savings" style="display: block; font-size: 20px; color: #ffffff; font-weight: bold; font-family: sans-serif;" width="200" class="img-max" />
 						</td>
 					</tr>
@@ -184,13 +192,13 @@
 		</tr>
 	</table>
 
-	<!-- Wrapper for Forrest -->
+	<!-- Wrapper for Forrest: Section 3 of 3 (last one I promise) -->
 	<table bgcolor="#5a735f" border="0" cellspacing="0" cellpadding="0" style="background: url('https://i.imgur.com/vOM62eb.png') #5a735f; background-size: cover;" width="100%">
 		<tr>
 			<td>
 					
 				<!-- Wrapper -->
-				<table border="0" cellspacing="0" cellpadding="0" style="background: rgba(131, 158, 137, 0.8);" width="100%" class="responsive-padding">
+				<table border="0" cellspacing="0" cellpadding="0" style="background: rgba(131, 158, 137, 0.8);" width="100%" class="responsive-padding forrest">
 					<tr>
 						<td align="center" style="padding-top: 50px;">
 							<!-- Fresh Img -->
@@ -248,3 +256,4 @@
 	</table>
 </body>
 </html>
+<!-- The End, hope you enjoyed. Please feel free to contact me at: zstall4@gmail.com -->
