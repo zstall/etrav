@@ -7,7 +7,7 @@ The full html email has animated backgrounds and buttons.
 ![Imgur](https://i.imgur.com/WhAnyWf.png)
 
 ## To view the email:
-Simply download the index.html in the src file and launch in your favorite web-browser. (Note: the fading animation for the background images is not supported in IE)
+Clone, download, or branch the etrav repository. Find index.html in the src file and launch in your favorite web-browser. (Note: the fading animation for the background images is not supported in IE)
 Also, this email is responsive and will look great on PC, tablet, or phone.
 
 ## Like what you see?
