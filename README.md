@@ -1,5 +1,5 @@
 # etrav Git
-In this repository is an attempt at a html email. I followed along with codeschool.com and added my own touches along the way.
+In this repository is an attempt at a html email. This was a culminating html email project that I completed from codeschool.com. All of the assets were provided by codeschool.com and I added my own touches and style in the final email.
 
 ## Image much? Preview below:
 The full html email has animated backgrounds and buttons.
